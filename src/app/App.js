@@ -10,7 +10,6 @@ const App = () => {
         CSS Sandbox
       </h1>
       <Shapes />
-      
     </div>
   );
 };

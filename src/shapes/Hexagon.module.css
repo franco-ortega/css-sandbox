@@ -1,0 +1,81 @@
+
+.Hexagon {
+    position: relative;
+    width: 50px;
+    height: 28.86px;
+    background: brown;
+    margin: 34.4px auto;
+}
+
+.Hexagon::before, .Hexagon::after {
+    content: "";
+    position: absolute;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.Hexagon::before {
+    bottom: 100%;
+    border-bottom: 14.43px solid brown;
+}
+
+.Hexagon::after {
+    top: 100%;
+    border-top: 14.43px solid brown;
+}
+
+
+
+.Hexagon2 {
+    position: relative;
+    left: 10px;
+    width: 50px;
+    height: 28.86px;
+    background: brown;
+    margin: -24.4px auto;
+}
+
+.Hexagon2::before, .Hexagon2::after {
+    content: "";
+    position: absolute;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.Hexagon2::before {
+    bottom: 100%;
+    border-bottom: 14.43px solid brown;
+}
+
+.Hexagon2::after {
+    top: 100%;
+    border-top: 14.43px solid brown;
+}
+
+
+
+.Hexagon3 {
+    position: relative;
+    right: 15px;
+    width: 50px;
+    height: 28.86px;
+    background: brown;
+    margin: -44.4px auto;
+}
+
+.Hexagon3::before, .Hexagon3::after {
+    content: "";
+    position: absolute;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.Hexagon3::before {
+    bottom: 100%;
+    border-bottom: 14.43px solid brown;
+}
+
+.Hexagon3::after {
+    top: 100%;
+    border-top: 14.43px solid brown;
+}
