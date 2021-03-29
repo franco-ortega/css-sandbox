@@ -1,0 +1,43 @@
+.Shapes {
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Box {
+    width: 300px;
+    height: 300px;
+    border-top: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 300px solid goldenrod;
+    border-left: 300px solid transparent;
+
+    margin: 10px;
+}
+
+.Rectangle {
+    position: relative;
+    width: 500px;
+    height: 288.68px;
+    background: #CD5C5C;
+    margin: 144px auto;
+}
+
+.Rectangle::before, .Rectangle::after {
+    content: "";
+    position: absolute;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}
+
+.Rectangle::before {
+    bottom: 100%;
+    border-bottom: 144.34px solid #CD5C5C;
+}
+
+.Rectangle::after {
+    top: 100%;
+    border-top: 144.34px solid #CD5C5C;
+}
