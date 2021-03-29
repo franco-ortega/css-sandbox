@@ -1,9 +1,5 @@
 .Shapes {
-    background: lightgray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    background: lightgrey;
 }
 
 .Box {
@@ -17,33 +13,35 @@
     margin: 10px;
 }
 
+
 .Rectangle {
     position: relative;
-    width: 50px;
-    height: 28.86px;
+    width: 100px;
+    height: 57.8px;
     background: #CD5C5C;
-    margin: 14.4px auto;
+    margin: 28.9px auto;
 }
 
 .Rectangle::before, .Rectangle::after {
     content: "";
     position: absolute;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
 }
 
 .Rectangle::before {
     bottom: 100%;
-    border-bottom: 14.43px solid #CD5C5C;
+    border-bottom: 28.9px solid #CD5C5C;
 }
 
 .Rectangle::after {
     top: 100%;
-    border-top: 14.43px solid #CD5C5C;
+    border-top: 28.9px solid #CD5C5C;
 }
+
 
 .HexShape {
     border: solid;
-    margin: 100px;
+    margin: 50px;
     padding: 100px;
 }
