@@ -3,3 +3,38 @@
 
     height: 90vh;
 }
+
+.GridContainer {
+    background: lightpink;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2vw;
+
+    gap: 2vw;
+
+}
+
+.GridItem {
+    background: lightgreen;
+    border: .1vw solid black;
+    padding: 4vw;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.GridItem3 {
+    background: lightblue;
+    grid-row: 1 / span 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+}
+
+.GridItem9 {
+    background: lightblue;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
