@@ -10,15 +10,17 @@ import Grid from '../grid/Grid';
 import Shapes from '../shapes/Shapes';
 // import PropTypes from 'prop-types';
 import './App.css';
+import GridMap from '../grid/GridMap';
 
 const App = () => {
   return (
     <div>
       <Router>
-      <Header />
+      {/* <Header /> */}
         <Switch>
           <Route exact path='/' component={Home}></Route>
           <Route path='/grid' component={Grid}></Route>
+          <Route path='/gridmap' component={GridMap}></Route>
           <Route path='/shapes' component={Shapes}></Route>
         </Switch>
       </Router>
