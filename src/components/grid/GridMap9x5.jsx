@@ -1,10 +1,10 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import styles from './GridMap.module.css';
+import styles from './GridMap9x5.module.css';
 
-const GridMap = props => {
+const GridMap9x5 = props => {
     return (
-        <div className={styles.GridMap}>
+        <div className={styles.GridMap9x5}>
             <div className={styles.GridContainer}>
                 <div className={styles.GridItem}>1</div>
                 <div className={styles.GridItem}>2</div>
@@ -43,8 +43,8 @@ const GridMap = props => {
     );
 };
 
-GridMap.propTypes = {
+GridMap9x5.propTypes = {
 
 };
 
-export default GridMap;
+export default GridMap9x5;
