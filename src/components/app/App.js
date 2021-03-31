@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div>
       <Router>
-      <Header />
+      {/* <Header /> */}
         <Switch>
           <Route exact path='/' component={Home}></Route>
           <Route path='/grid' component={Grid}></Route>
