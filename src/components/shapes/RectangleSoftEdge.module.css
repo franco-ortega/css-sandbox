@@ -1,0 +1,24 @@
+.RectangleSoftEdge {
+    background: tan;
+    border: 2vw solid rgb(97, 180, 207);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 75%;
+    width: 80%;
+}
+
+
+.Profile {
+    border-radius: 25vw 5vw 25vw 10vw;
+}
+
+.Projects {
+    border-radius: 25vw 5vw 5vw 10vw;
+}
+
+.Resume {
+    border-radius: 55vw 75vw 75vw 90vw;
+}

@@ -1,0 +1,13 @@
+.Circle {
+    background: brown;
+    border: .5vw solid lightblue;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90%;
+    width: 90%;
+    
+}

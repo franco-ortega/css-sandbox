@@ -2,7 +2,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import styles from './GridMap9x5.module.css';
 
-const GridMap9x5 = props => {
+const GridMap9x5 = () => {
     return (
         <div className={styles.GridMap9x5}>
             <div className={styles.GridContainer}>
@@ -25,18 +25,6 @@ const GridMap9x5 = props => {
                 <div className={styles.GridItem}>16</div>
                 <div className={styles.GridItem}>17</div>
                 <div className={styles.GridItem}>18</div> */}
-                {/* <div className={`${styles.GridItem}`}>19</div> */}
-                {/* <div className={styles.GridItem}>20</div> */}
-                {/* <div className={styles.GridItem}>21</div>
-                <div className={styles.GridItem}>22</div>
-                <div className={`${styles.GridItem}`}>23</div>
-                <div className={styles.GridItem}>24</div>
-                <div className={styles.GridItem}>25</div> */}
-                {/* <div className={styles.GridItem}>26</div> */}
-                {/* <div className={styles.GridItem}>27</div> */}
-                {/* <div className={styles.GridItem}>28</div>
-                <div className={`${styles.GridItem}`}>29</div>
-                <div className={styles.GridItem}>30</div> */}
             </div>
 
         </div>
