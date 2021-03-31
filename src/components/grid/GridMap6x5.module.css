@@ -106,11 +106,3 @@
     justify-content: flex-start;
 }
 
-
-@media only screen and (max-width: 900px) and (orientation: portrait) {
-    .GridMap6x5 {
-      height: 80%;
-      width: 100vh;
-      transform: rotate(90deg);
-    }
-}

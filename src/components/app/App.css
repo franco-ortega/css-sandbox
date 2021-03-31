@@ -4,3 +4,11 @@
   padding: 0;
 }
 
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+  body {
+    height: 80%;
+    width: 100vh;
+    transform: rotate(90deg);
+  }
+}
