@@ -6,8 +6,8 @@
 
 
 @media only screen and (max-width: 900px) and (orientation: portrait) {
-  body {
-    height: 80%;
+  html {
+    height: 100%;
     width: 100vh;
     transform: rotate(90deg);
   }
