@@ -11,8 +11,10 @@ const GridMap6x5 = () => {
     return (
         <div className={styles.GridMap6x5}>
             <div className={styles.GridContainer}>
-                <div className={styles.GridItem}>1</div>
-                <div className={styles.GridItem}>2</div>
+                <div className={`${styles.GridItem} ${styles.GridItem1}`}>
+                    <Circle label={'?'} />
+                </div>
+                <div className={styles.GridItem}></div>
                 <div className={`${styles.GridItem} ${styles.GridItem3}`}>
                     Franco Ortega
                 </div>
@@ -32,7 +34,7 @@ const GridMap6x5 = () => {
                     />
                 </div>
                 <div className={`${styles.GridItem} ${styles.GridItemCart}`}>
-                <Circle label={'Maps'} />
+                <Circle label={'Cartography'} />
                 </div>
                 <div className={`${styles.GridItem} ${styles.GridItem7}`}>
                     <GridIslands />
@@ -43,7 +45,9 @@ const GridMap6x5 = () => {
                         borderShape={styles2.Resume}
                     />
                 </div>
-                <div className={`${styles.GridItem} ${styles.GridItem9}`}>Compass</div>
+                <div className={`${styles.GridItem} ${styles.GridItem9}`}>
+                    <Circle label={'Compass'} />
+                </div>
                 {/* <div className={styles.GridItem}>13</div> */}
             </div>
 
