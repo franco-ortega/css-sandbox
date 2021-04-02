@@ -13,6 +13,8 @@ import './App.css';
 import GridMap9x5 from '../grid/GridMap9x5';
 import GridMap6x5 from '../grid/GridMap6x5';
 import CircleFloating from '../shapes/CircleFloating';
+import SquareFloating from '../shapes/SquareFloating';
+import SquareFloating2 from '../shapes/SquareFloating2';
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
           <Route path='/gridmap9x5' component={GridMap9x5}></Route>
           <Route path='/shapes' component={Shapes}></Route>
           <Route path='/circlefloating' component={CircleFloating}></Route>
+          <Route path='/squarefloating' component={SquareFloating}></Route>
+          <Route path='/squarefloating2' component={SquareFloating2}></Route>
         </Switch>
       </Router>
     </div>
