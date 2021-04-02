@@ -2,5 +2,5 @@
 
 This site is a sandbox for trying out various forms of CSS styling.
 
-Website:
-https://css-sandbox-playground.netlify.app/gridmap6x5
+Map Practice with CSS Grid:
+https://css-sandbox-playground.netlify.app/
