@@ -1,0 +1,8 @@
+.Square2 {
+    background: lightgoldenrodyellow;
+    border: 5px solid darkred;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+}

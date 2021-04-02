@@ -1,0 +1,8 @@
+.Square {
+    background: fuchsia;
+    border: 5px solid silver;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+}

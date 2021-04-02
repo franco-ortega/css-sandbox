@@ -1,0 +1,44 @@
+.SquareFloating2GridContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1vw;
+
+    padding-bottom: 1vw;
+    height: 100%;
+    width: 100%;
+
+    position: fixed;
+    top: 0vw;
+    z-index: 5;
+}
+
+
+.SquareFloating2GridItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3vw;
+    text-align: center;
+
+    grid-column: 3 / 6;
+    grid-row: 2 / 6;
+
+    margin: 1vw;
+}
+
+
+.SquareFloating2 {
+    background: pink;
+    border: 2vw solid darkcyan;
+    border-radius: 25%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 50%;
+    width: 50%;
+}
