@@ -16,8 +16,9 @@ const CircleFloating = () => {
             <p>
                 This is a floating circle!
             </p>
-            <p>
+            <p className={styles.SquaresContainer}>
                 <Square />
+            
                 <Square2 />
             </p>
             <Link to="/">
