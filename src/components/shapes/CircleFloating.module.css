@@ -1,0 +1,44 @@
+.CircleFloatingGridContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1vw;
+
+    padding-bottom: 1vw;
+    height: 100%;
+    width: 100%;
+
+    position: fixed;
+    top: 0vw;
+    z-index: 2;
+}
+
+
+.CircleFloatingGridItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3vw;
+    text-align: center;
+
+    grid-column: 3 / 6;
+    grid-row: 2 / 6;
+
+    margin: 1vw;
+}
+
+
+.CircleFloating {
+    background: olive;
+    border: 2vw solid yellow;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}

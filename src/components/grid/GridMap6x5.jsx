@@ -7,13 +7,20 @@ import styles from './GridMap6x5.module.css';
 import styles2 from '../shapes/RectangleSoftEdge.module.css';
 import Circle from '../shapes/Circle';
 
+import { Link } from 'react-router-dom';
+// import CircleFloating from '../shapes/CircleFloating';
+
 const GridMap6x5 = () => {
     return (
         <div className={styles.GridMap6x5}>
             <div className={styles.GridContainer}>
+                <Link to="/circlefloating">
                 <div className={`${styles.GridItem} ${styles.GridItem1}`}>
                     <Circle label={'?'} />
                 </div>
+                </Link>
+
+
                 <div className={styles.GridItem}></div>
                 <div className={`${styles.GridItem} ${styles.GridItem3}`}>
                     Franco Ortega
