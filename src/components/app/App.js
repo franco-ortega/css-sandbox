@@ -4,23 +4,24 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-// import Header from '../header/Header';
+import Header from '../header/Header';
 import Home from '../home/Home';
 import Grid from '../grid/Grid';
 import Shapes from '../shapes/Shapes';
 // import PropTypes from 'prop-types';
-import './App.css';
 import GridMap9x5 from '../grid/GridMap9x5';
 import GridMap6x5 from '../grid/GridMap6x5';
 import CircleFloating from '../shapes/CircleFloating';
 import SquareFloating from '../shapes/SquareFloating';
 import SquareFloating2 from '../shapes/SquareFloating2';
+import './App.css';
+import styles from  './App.module.css';
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.Main}>
       <Router>
-      {/* <Header /> */}
+      <Header />
       <GridMap6x5 />
         <Switch>
           <Route exact path='/home' component={Home}></Route>
