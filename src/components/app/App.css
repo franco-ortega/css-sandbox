@@ -3,12 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-
-@media only screen and (max-width: 900px) and (orientation: portrait) {
-  html {
-    height: 100vw;
-    width: 100vh;
-    transform: rotate(90deg);
-  }
-}
