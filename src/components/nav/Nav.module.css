@@ -1,0 +1,14 @@
+.Nav {
+  height: fit-content;
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1vw 2vw;
+
+  position: absolute;
+  right: 5%;
+
+  font-size: 1vw;
+}

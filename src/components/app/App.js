@@ -8,7 +8,6 @@ import Header from '../header/Header';
 import Home from '../home/Home';
 import Grid from '../grid/Grid';
 import Shapes from '../shapes/Shapes';
-// import PropTypes from 'prop-types';
 import GridMap9x5 from '../grid/GridMap9x5';
 import GridMap6x5 from '../grid/GridMap6x5';
 import CircleFloating from '../shapes/CircleFloating';
@@ -35,10 +34,6 @@ const App = () => {
       </Router>
     </div>
   );
-};
-
-App.propTypes = {
-
 };
 
 export default App;
