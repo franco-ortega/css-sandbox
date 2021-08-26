@@ -22,9 +22,8 @@ const App = () => {
     <div className={styles.Main}>
       <Router>
       <Header />
-      <GridMap6x5 />
         <Switch>
-          <Route exact path='/home' component={Home}></Route>
+          <Route exact path='/' component={Home}></Route>
           <Route path='/grid' component={Grid}></Route>
           <Route path='/gridmap6x5' component={GridMap6x5}></Route>
           <Route path='/gridmap9x5' component={GridMap9x5}></Route>

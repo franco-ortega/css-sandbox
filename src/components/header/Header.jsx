@@ -16,6 +16,7 @@ const Header = props => {
                     <li><Link to='/gridmap6x5'>Grid Map (6 x 5)</Link></li>
                     <li><Link to='/gridmap9x5'>Grid Map (9 x 5)</Link></li>
                     <li><Link to='/shapes'>Shapes</Link></li>
+                    <li><Link to='/circlefloating'>Circle</Link></li>
                 </ul>
             </section>
             
