@@ -11,6 +11,7 @@ const Nav = () => {
       <li><Link to='/gridmap9x5'>Grid Map (9 x 5)</Link></li>
       <li><Link to='/shapes'>Shapes</Link></li>
       <li><Link to='/circlefloating'>Circle</Link></li>
+      <li><Link to='/hsl'>HSL</Link></li>
     </ul>
   );
 };
