@@ -15,6 +15,7 @@ import SquareFloating from '../shapes/SquareFloating';
 import SquareFloating2 from '../shapes/SquareFloating2';
 import './App.css';
 import styles from  './App.module.css';
+import Hsl from '../colors/Hsl';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path='/circlefloating' component={CircleFloating}></Route>
           <Route path='/squarefloating' component={SquareFloating}></Route>
           <Route path='/squarefloating2' component={SquareFloating2}></Route>
+          <Route path='/hsl' component={Hsl}></Route>
         </Switch>
       </Router>
     </div>
